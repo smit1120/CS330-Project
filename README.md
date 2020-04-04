@@ -1,2 +1,5 @@
-# CS330-Project
- This my Assignment-5 for course CS330-Introduction To Operating Systems
+# CS330-Assignment5
+ **Name:**          Smit .J. Patel
+ **Student No.:**   200415740
+ **Course:**        CS330-Introduction To Operating Systems
+  
