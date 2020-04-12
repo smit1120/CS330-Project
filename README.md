@@ -4,10 +4,7 @@
  **Course:**        CS330-Introduction To Operating Systems
 
 ## Topic
-  This is a small project on sorting using multiple threads. 
-  It implements Merge Sort and Quick Sort algorithms, both with
-  O(nlogn) time complexity. However, Merge Sort algorithm tends
-  to perform slightly better than the Quick Sort. 
+  This is a small project on sorting using multiple threads. It implements Merge Sort and Quick Sort algorithms, both with O(nlogn) time complexity. However, Merge Sort algorithm tends to perform slightly better than the Quick Sort if array is very large. 
 
   This project does not integrate multi-threading in the sorting algorithms, rather it uses a simple approach of dividing the list and sorting them seperaterly by assigning each of divided part to the individual threads. Suppose there are n threads available, then the list of numbers is divided into n equal parts (so that each thread gets equal amount of work to perform) and assinged to n available threads seperately. These threads then performs sorting on assigned part of the list with prefered algorithm. Once every thread has finished sorting, the parent thread is used to Merge the seperated list. This program creates two threads to perform the multi-threaded sorting.
 
